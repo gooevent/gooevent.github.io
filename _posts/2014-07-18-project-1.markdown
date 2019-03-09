@@ -1,0 +1,15 @@
+---
+title: Hanoi 2018 Conference
+subtitle: Investment & development cooperation  
+layout: default
+modal-id: 1
+date: 2018-06-16
+img: Slide17.PNG
+thumbnail: Slide17.PNG
+alt: image-alt
+project-date: June 2018
+client: Hanoi Committee
+category: Conference
+description: Vietnam National Convention Center (Hanoi)
+
+---
