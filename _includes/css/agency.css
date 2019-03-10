@@ -21,6 +21,10 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.team-avatar {
+    max-height: 200px;
+    max-width: 200px;
+}
 p {
     font-size: 14px;
     line-height: 1.75;
