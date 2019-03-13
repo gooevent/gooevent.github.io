@@ -1,10 +1,10 @@
-url: https://y7kim.github.io
-baseurl: /
+url: https://goo-events.com/
+baseurl: /gooevent.github.io
 
 # Site settings
 title: GooEvent
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: cuong.nguyen@goo-events.com
+description: "GooEvent - The most creative event agency"
 
 
 # Team names, titles and social links

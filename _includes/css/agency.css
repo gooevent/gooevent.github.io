@@ -21,6 +21,35 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.home-wrapper {
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.tag-line {
+    /* display: table-cell; */
+    font-size: 1.5em;
+    /* color: rgba(255, 255, 255, .9); */
+    color: rgba(254,209,54,.9);
+    line-height: initial;
+    font-size: 2.6em;
+    font-weight: 200;
+    /* height: 725px; */
+    /* width: 100%; */
+    vertical-align: middle;
+    text-align: center;
+}
+.tag-line .tag-line-bold {
+    display: block;
+    font-size: 2.6em;
+    /* line-height: 110px; */
+    letter-spacing: -4px;
+}
+
 .team-avatar {
     max-height: 200px;
     max-width: 200px;
@@ -286,24 +315,27 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding-top: 1em;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
+    font-size: 1em;
     font-style: italic;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    /* text-transform: uppercase; */
+    margin-bottom: 0px;
+    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 0.8em;
+    font-weight: 100;
     line-height: 50px;
 }
 
@@ -328,6 +360,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
+        margin-bottom: 20px;
+        margin-top: 20px;
         padding-top: 300px;
         padding-bottom: 200px;
     }
@@ -342,10 +376,11 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        /* text-transform: uppercase; */
+        text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
+        font-size: 30px;
+        /* font-size: 2.8em; */
+        font-weight: 100;
         line-height: 75px;
     }
 }
