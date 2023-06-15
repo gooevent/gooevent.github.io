@@ -1,0 +1,13 @@
+---
+title: Groundbreaking ceremony 
+subtitle: Duong River Suface water plaint JSC
+layout: default
+modal-id: 3
+date: 2017-03-09
+img: Slide20.PNG
+thumbnail: Slide20.PNG
+alt: image-alt
+project-date: March 2017
+client: Duong River Suface water plaint JSC
+category: Groundbreaking ceremony 
+---

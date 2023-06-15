@@ -1,0 +1,56 @@
+url: https://goo-events.com/
+baseurl: /gooevent.github.io
+
+# Site settings
+title: GooEvent
+email: cuong.nguyen@goo-events.com
+description: "GooEvent - The most creative event agency"
+
+
+# Team names, titles and social links
+people:
+- name: NGUYEN CAO CUONG
+  pic: EP
+  position: Executive Producer
+  social:
+    # - title: twitter
+    #   url: #
+    - title: facebook
+      url: #
+    # - title: stack-overflow
+    #   url: #
+  description: 10+ years experience in event industry. He has worked on the wide range clients like Diageo, Intel, Tiger, Heineken, Unilever, Phillip Morris and many high class conferences for Viet Nam Government…so he always put international and premium standard in his work.
+
+- name: NGUYEN VINH HIEN
+  pic: MD
+  position: Managing Director
+  social:
+    # - title: twitter
+    #   url: #
+    - title: facebook
+      url: #
+    # - title: linkedin
+    #   url: #
+  description: 10+ years experiences at marketing field, including event (commercial & live show), activation, merchandising, sale force management, mystery shopper. With detailed personality & good at planning, He has been achieved successful projects with many clients
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: #
+  - title: facebook
+    url: #
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket 
+  #   url: http://bitbucket.org/jekyll
+  # - title: github
+  #   url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
